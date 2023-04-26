@@ -7,3 +7,72 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+}
+
+/************************************/
+/********** MAIN CSS **************/
+/************************************/
+main {
+    background-color: burlywood;
+}
+
+div#myGrid {
+    height: 37.5rem;
+}
+
+div#myGrid .myBox1 {
+    width: calc(100% / 7);
+    height: calc(100% / 7);
+    background-color: #e4a425;
+    border: 2px rgb(38, 33, 33) solid;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+div#myGrid .myBox2 {
+    width: calc(100% / 9);
+    height: calc(100% / 9);
+    background-color: #41ab5c;
+    border: 2px rgb(38, 33, 33) solid;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+div#myGrid .myBox3 {
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    background-color: #7141ab;
+    border: 2px rgb(38, 33, 33) solid;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+div#myGrid .myBox1.myClicked{
+    background-color: #bd3f18;
+}
+
+div#myGrid .myBox2.myClicked{
+    background-color: #bd3f18;
+}
+
+div#myGrid .myBox3.myClicked{
+    background-color: #bd3f18;
+}
+
+
+
