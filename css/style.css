@@ -12,22 +12,23 @@ body {
     font-size: 1rem;
 }
 
+.myBgColor1 {
+    background-color: #2b2828;
+}
 /************************************/
 /********** MAIN CSS **************/
 /************************************/
 div#myGrid {
-    height: 37.5rem;
-}
-
-.myBgColor {
-    background-color: #2b2828;
+    height: calc(100vh - 6.7244rem);
+    margin: 0 auto;
+    padding: 3.125rem;
 }
 
 div#myGrid .myBox1 {
     width: calc(100% / 7);
     height: calc(100% / 7);
-    background-color: #e4a425;
-    border: 2px rgb(38, 33, 33) solid;
+    background-color: #d3ba88;
+    border: 2px rgb(211, 135, 205) solid;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
     display: flex;
@@ -39,8 +40,8 @@ div#myGrid .myBox1 {
 div#myGrid .myBox2 {
     width: calc(100% / 9);
     height: calc(100% / 9);
-    background-color: #41ab5c;
-    border: 2px rgb(38, 33, 33) solid;
+    background-color: #7bc48d;
+    border: 2px rgb(144, 167, 211) solid;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
     display: flex;
@@ -53,7 +54,7 @@ div#myGrid .myBox3 {
     width: calc(100% / 10);
     height: calc(100% / 10);
     background-color: #7141ab;
-    border: 2px rgb(38, 33, 33) solid;
+    border: 2px rgb(185, 178, 178) solid;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
     display: flex;
@@ -62,17 +63,24 @@ div#myGrid .myBox3 {
     text-align: center;
 }
 
-div#myGrid .myBox1.myClicked{
-    background-color: #bd3f18;
-}
-
-div#myGrid .myBox2.myClicked{
-    background-color: #bd3f18;
-}
-
+div#myGrid .myBox1.myClicked,
+div#myGrid .myBox2.myClicked,
 div#myGrid .myBox3.myClicked{
     background-color: #bd3f18;
 }
+
+/* link css */
+h3 > a {
+    text-decoration: none;
+    color: #266dd6;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
 
 
 
