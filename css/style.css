@@ -15,12 +15,12 @@ body {
 /************************************/
 /********** MAIN CSS **************/
 /************************************/
-main {
-    background-color: burlywood;
-}
-
 div#myGrid {
     height: 37.5rem;
+}
+
+.myBgColor {
+    background-color: #2b2828;
 }
 
 div#myGrid .myBox1 {
